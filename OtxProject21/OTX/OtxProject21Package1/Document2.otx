@@ -23,5 +23,32 @@
         </flow>
       </realisation>
     </procedure>
+    <procedure name="main2" id="Procedure_9e2197ee56a34d269b3d54f4afbe4f95" visibility="PUBLIC">
+      <realisation>
+        <flow>
+          <action name="ConfirmDialog1" id="Action_5ec6cfc7b4ba4b21a66635e07669cb04">
+            <realisation xsi:type="hmi:ConfirmDialog" />
+          </action>
+        </flow>
+      </realisation>
+    </procedure>
+    <procedure name="main3" id="Procedure_fa7f4f3ace324ed9b9c431ed55c15db1" visibility="PUBLIC">
+      <realisation>
+        <flow>
+          <action name="ConfirmDialog1" id="Action_60e5dc089af84a29b30a122e61a023bf">
+            <realisation xsi:type="hmi:ConfirmDialog" />
+          </action>
+        </flow>
+      </realisation>
+    </procedure>
+    <procedure name="main4" id="Procedure_2a49c0480b4d4ed59e8a28e751275d65" visibility="PUBLIC">
+      <realisation>
+        <flow>
+          <action name="ConfirmDialog1" id="Action_23a7ff11a4034c7a9ee9b3dc37972e04">
+            <realisation xsi:type="hmi:ConfirmDialog" />
+          </action>
+        </flow>
+      </realisation>
+    </procedure>
   </procedures>
 </otx>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<otx xmlns="http://iso.org/OTX/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="id_b40e19e1779c4520b3a8e531395a9d1a" name="Document7" package="OtxProject21Package1" version="1.0.0.0" timestamp="2021-09-09T10:54:15.6665313+07:00">
+<otx xmlns="http://iso.org/OTX/1.0.0" xmlns:hmi="http://iso.org/OTX/1.0.0/HMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="id_b40e19e1779c4520b3a8e531395a9d1a" name="Document7" package="OtxProject21Package1" version="1.0.0.0" timestamp="2021-09-09T10:54:15.6665313+07:00">
   <metaData>
     <data key="MadeWith">Created by emotive Open Test Framework - www.emotive.de</data>
     <data key="OtfVersion">6.4.0.42710</data>
@@ -7,7 +7,11 @@
   <procedures>
     <procedure id="id_d7999fe00b664480a3ba57c3bdb7b07d" name="main" visibility="PUBLIC">
       <realisation>
-        <flow />
+        <flow>
+          <action name="ConfirmDialog1" id="ConfirmDialog_8b0067451e234ced9b0f8d70182030a1">
+            <realisation xsi:type="hmi:ConfirmDialog" />
+          </action>
+        </flow>
       </realisation>
     </procedure>
   </procedures>

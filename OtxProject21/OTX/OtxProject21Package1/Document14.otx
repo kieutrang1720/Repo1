@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otx xmlns="http://iso.org/OTX/1.0.0" xmlns:hmi="http://iso.org/OTX/1.0.0/HMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="id_7dc50ddd75f6455393b9a4c57a4c0970" name="Document14" package="OtxProject21Package1" version="1.0.0.0" timestamp="2021-09-09T15:06:24.8165891+07:00">
+  <metaData>
+    <data key="MadeWith">Created by emotive Open Test Framework - www.emotive.de</data>
+    <data key="OtfVersion">6.4.0.42710</data>
+  </metaData>
+  <procedures>
+    <procedure id="id_da830dc62ad94550ba7af6ed65059d3a" name="main" visibility="PUBLIC">
+      <realisation>
+        <flow>
+          <action name="ConfirmDialog1" id="ConfirmDialog_d55b88ecf5e541b4bf9190eeb98dce3f">
+            <realisation xsi:type="hmi:ConfirmDialog" />
+          </action>
+        </flow>
+      </realisation>
+    </procedure>
+  </procedures>
+</otx>

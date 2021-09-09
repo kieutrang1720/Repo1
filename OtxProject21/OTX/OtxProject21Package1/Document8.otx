@@ -8,6 +8,9 @@
     <procedure id="id_256a2e71b63f4179a44b64d6a841248b" name="main" visibility="PUBLIC">
       <realisation>
         <flow>
+          <action name="ConfirmDialog2" id="ConfirmDialog_0418968a75924972ab16514bde313a58">
+            <realisation xsi:type="hmi:ConfirmDialog" />
+          </action>
           <action name="ConfirmDialog1" id="ConfirmDialog_98fbae8ff19d4d54b87956651ec1605a">
             <realisation xsi:type="hmi:ConfirmDialog" />
           </action>

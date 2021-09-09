@@ -14,5 +14,14 @@
         </flow>
       </realisation>
     </procedure>
+    <procedure name="main1" id="Procedure_2a2d7eda895f496c93eab4f157fa38f0" visibility="PUBLIC">
+      <realisation>
+        <flow>
+          <action name="ConfirmDialog1" id="Action_05f173380af74a28bd0ef43907e39462">
+            <realisation xsi:type="hmi:ConfirmDialog" />
+          </action>
+        </flow>
+      </realisation>
+    </procedure>
   </procedures>
 </otx>

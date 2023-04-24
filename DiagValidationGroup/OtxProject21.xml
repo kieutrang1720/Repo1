@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diagValidationGroups xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="OtxProject21" timestamp="2023-04-24T14:25:42.6370204+07:00" id="DiagValidationGroups_e83375876d444166acfee9bf750126a7" xmlns="http://iso.org/OTX/1.0.0/Auxiliaries/DiagValidationGroups">
+  <comChannelGroups />
+  <ecuVariantGroups />
+</diagValidationGroups>

@@ -3,9 +3,7 @@
   <Applications />
   <References />
   <MakeBackup />
-  <StartupApplication Procedure="OtxProject21Package1.Document1.main">
-    <ParameterCollection />
-  </StartupApplication>
+  <StartupApplication Procedure="OtxProject14Package1.zzz.main" />
   <ExportPtx />
   <InstructionsFile TemplateName="Default.ptxt" ShortName="Project" />
   <MetaDataLayout />

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otx xmlns="http://iso.org/OTX/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="id_2bbac116b79a4381ad6a9c12368e26b6" name="ccc" package="OtxProject14Package1.OtxProject1Package2" version="1.0.0.0" timestamp="2023-04-26T18:09:26.0379433+07:00">
+  <metaData>
+    <data key="MadeWith">Created by emotive Open Test Framework - www.emotive.de</data>
+    <data key="OtfVersion">6.99.0.47617</data>
+  </metaData>
+  <adminData p3:type="simple" p3:href="Document1.adminData" xmlns:p3="http://www.w3.org/1999/xlink" />
+  <procedures>
+    <procedure id="id_90d1f863eaaa4ba0afb51b02ba4d0742" name="main" visibility="PUBLIC">
+      <realisation>
+        <flow />
+      </realisation>
+    </procedure>
+  </procedures>
+</otx>

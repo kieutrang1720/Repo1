@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CATALOG xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" F-DTD-VERSION="ODX-2.2.0">
+  <COMPANY-DATAS>
+    <COMPANY-DATA ID="40c127d6-364d-4809-bd1e-ee83484a6933">
+      <SHORT-NAME>New_Company_1</SHORT-NAME>
+      <LONG-NAME>New Company 1</LONG-NAME>
+      <ROLES />
+      <TEAM-MEMBERS>
+        <TEAM-MEMBER ID="6be77df8-8d53-4ed7-947f-ef5c85c7f786">
+          <SHORT-NAME>Team_Member_1</SHORT-NAME>
+          <LONG-NAME>Team Member 1</LONG-NAME>
+          <ROLES />
+        </TEAM-MEMBER>
+      </TEAM-MEMBERS>
+    </COMPANY-DATA>
+  </COMPANY-DATAS>
+  <ADMIN-DATA>
+    <LANGUAGE>de-DE</LANGUAGE>
+    <COMPANY-DOC-INFOS />
+    <DOC-REVISIONS>
+      <DOC-REVISION>
+        <TEAM-MEMBER-REF ID-REF="6be77df8-8d53-4ed7-947f-ef5c85c7f786" />
+        <REVISION-LABEL>0.0.1</REVISION-LABEL>
+        <DATE>2023-05-25T09:47:40</DATE>
+        <TOOL>emotive OTF</TOOL>
+        <COMPANY-REVISION-INFOS />
+        <MODIFICATIONS />
+      </DOC-REVISION>
+      <DOC-REVISION>
+        <TEAM-MEMBER-REF ID-REF="6be77df8-8d53-4ed7-947f-ef5c85c7f786" />
+        <REVISION-LABEL>0.0.2</REVISION-LABEL>
+        <DATE>2023-05-25T09:47:42</DATE>
+        <TOOL>emotive OTF</TOOL>
+        <COMPANY-REVISION-INFOS />
+        <MODIFICATIONS />
+      </DOC-REVISION>
+    </DOC-REVISIONS>
+  </ADMIN-DATA>
+  <ABLOCKS />
+</CATALOG>

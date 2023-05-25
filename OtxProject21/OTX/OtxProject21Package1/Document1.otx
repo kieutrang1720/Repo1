@@ -2,8 +2,9 @@
 <otx xmlns="http://iso.org/OTX/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="id_1c48444b33d2476d92ec1b296726cb38" name="Document1" package="OtxProject21Package1" version="1.0.0.0" timestamp="2021-09-08T15:30:27.8765388+07:00">
   <metaData>
     <data key="MadeWith">Created by emotive Open Test Framework - www.emotive.de</data>
-    <data key="OtfVersion">6.4.0.42710</data>
+    <data key="OtfVersion">6.99.0.47617</data>
   </metaData>
+  <adminData p3:type="simple" p3:href="Document1.adminData" xmlns:p3="http://www.w3.org/1999/xlink" />
   <procedures>
     <procedure id="id_9e7aff85346e414c9b1540e03ccafc6f" name="main" visibility="PUBLIC">
       <realisation>

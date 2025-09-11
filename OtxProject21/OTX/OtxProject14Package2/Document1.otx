@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otx xmlns="http://iso.org/OTX/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:diag="http://iso.org/OTX/1.0.0/DiagCom" xmlns:quant="http://iso.org/OTX/1.0.0/Quantities" xmlns:event="http://iso.org/OTX/1.0.0/Event" xmlns:string="http://iso.org/OTX/1.0.0/StringUtil" xmlns:hmi="http://iso.org/OTX/1.0.0/HMI" xmlns:dt="http://iso.org/OTX/1.0.0/DateTime" xmlns:math="http://iso.org/OTX/1.0.0/Math" xmlns:log="http://iso.org/OTX/1.0.0/Logging" xmlns:measure="http://iso.org/OTX/1.0.0/Measure" xmlns:flash="http://iso.org/OTX/1.0.0/Flash" xmlns:i18n="http://iso.org/OTX/1.0.0/i18n" xmlns:job="http://iso.org/OTX/1.0.0/Job" xmlns:data="http://iso.org/OTX/1.0.0/DiagDataBrowsing" xmlns:dmd="http://iso.org/OTX/1.0.0/Auxiliaries/DiagMetaData" xmlns:diagDataPlus="http://iso.org/OTX/1.0.0/DiagDataBrowsingPlus" xmlns:utils="http://emotive.de/OTX/1.0.0/Utils" xmlns:file="http://iso.org/OTX/1.0.0/File" xmlns:otxXml="http://iso.org/OTX/1.0.0/XML" xmlns:persist="http://iso.org/OTX/1.0.0/Persistence" xmlns:eventPlus="http://iso.org/OTX/1.0.0/EventPlus" xmlns:blackBox="http://iso.org/OTX/1.0.0/BlackBox" xmlns:dataType="http://iso.org/OTX/1.0.0/DataType" xmlns:util="http://iso.org/OTX/1.0.0/Util" xmlns:stateVar="http://iso.org/OTX/1.0.0/StateVariable" xmlns:assert="http://iso.org/OTX/1.0.0/Assertion" xmlns:smp="http://iso.org/OTX/1.0.0/StateMachineProcedure" xmlns:zip="http://iso.org/OTX/1.0.0/ZipHandling" xmlns:sql="http://iso.org/OTX/1.0.0/SQL" xmlns:testResult="http://iso.org/OTX/1.0.0/TestResultHandling" xmlns:commDlg="http://iso.org/OTX/1.0.0/CommonDialogs" xmlns:esp="http://iso.org/OTX/1.0.0/ExternalServiceProvider" xmlns:busMon="http://iso.org/OTX/1.0.0/BusMonitoring" xmlns:comIf="http://iso.org/OTX/1.0.0/ComInterface" xmlns:diagConf="http://iso.org/OTX/1.0.0/DiagConfiguration" xmlns:ecuConf="http://iso.org/OTX/1.0.0/EcuConfiguration" xmlns:diagComPlus="http://iso.org/OTX/1.0.0/DiagComPlus" xmlns:flashPlus="http://iso.org/OTX/1.0.0/FlashPlus" xmlns:vehInf="http://iso.org/OTX/1.0.0/VehicleInfo" xmlns:unittest="http://emotive.de/OTX/1.0.0/UnitTest" xmlns:annot="http://iso.org/OTX/1.0.0/Annotation" id="id_821e1b9c189b48c1a933cabf261abc80" name="Document1" package="OtxProject14Package2" version="1.0.0.0" timestamp="2023-05-24T18:08:33.6678821+07:00">
+  <metaData>
+    <data key="MadeWith">Created by emotive Open Test Framework - www.emotive.de</data>
+    <data key="OtfVersion">6.99.0.47617</data>
+  </metaData>
+  <adminData p44:type="simple" p44:href="Document1.adminData" xmlns:p44="http://www.w3.org/1999/xlink" />
+  <procedures>
+    <procedure id="id_99ede562da11451aa6adc329e05beb04" name="main" visibility="PUBLIC">
+      <realisation>
+        <flow />
+      </realisation>
+    </procedure>
+  </procedures>
+</otx>

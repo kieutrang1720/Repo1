@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<otx xmlns="http://iso.org/OTX/1.0.0" xmlns:annot="http://iso.org/OTX/1.0.0/Annotation" xmlns:measure="http://iso.org/OTX/1.0.0/Measure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:diag="http://iso.org/OTX/1.0.0/DiagCom" xmlns:quant="http://iso.org/OTX/1.0.0/Quantities" xmlns:event="http://iso.org/OTX/1.0.0/Event" xmlns:string="http://iso.org/OTX/1.0.0/StringUtil" xmlns:hmi="http://iso.org/OTX/1.0.0/HMI" xmlns:dt="http://iso.org/OTX/1.0.0/DateTime" xmlns:math="http://iso.org/OTX/1.0.0/Math" xmlns:log="http://iso.org/OTX/1.0.0/Logging" xmlns:flash="http://iso.org/OTX/1.0.0/Flash" xmlns:i18n="http://iso.org/OTX/1.0.0/i18n" xmlns:job="http://iso.org/OTX/1.0.0/Job" xmlns:data="http://iso.org/OTX/1.0.0/DiagDataBrowsing" xmlns:dmd="http://iso.org/OTX/1.0.0/Auxiliaries/DiagMetaData" xmlns:diagDataPlus="http://iso.org/OTX/1.0.0/DiagDataBrowsingPlus" xmlns:utils="http://emotive.de/OTX/1.0.0/Utils" xmlns:file="http://iso.org/OTX/1.0.0/File" xmlns:otxXml="http://iso.org/OTX/1.0.0/XML" xmlns:persist="http://iso.org/OTX/1.0.0/Persistence" xmlns:eventPlus="http://iso.org/OTX/1.0.0/EventPlus" xmlns:blackBox="http://iso.org/OTX/1.0.0/BlackBox" xmlns:dataType="http://iso.org/OTX/1.0.0/DataType" xmlns:util="http://iso.org/OTX/1.0.0/Util" xmlns:stateVar="http://iso.org/OTX/1.0.0/StateVariable" xmlns:assert="http://iso.org/OTX/1.0.0/Assertion" xmlns:smp="http://iso.org/OTX/1.0.0/StateMachineProcedure" xmlns:zip="http://iso.org/OTX/1.0.0/ZipHandling" xmlns:sql="http://iso.org/OTX/1.0.0/SQL" xmlns:testResult="http://iso.org/OTX/1.0.0/TestResultHandling" xmlns:commDlg="http://iso.org/OTX/1.0.0/CommonDialogs" xmlns:esp="http://iso.org/OTX/1.0.0/ExternalServiceProvider" xmlns:busMon="http://iso.org/OTX/1.0.0/BusMonitoring" xmlns:comIf="http://iso.org/OTX/1.0.0/ComInterface" xmlns:diagConf="http://iso.org/OTX/1.0.0/DiagConfiguration" xmlns:ecuConf="http://iso.org/OTX/1.0.0/EcuConfiguration" xmlns:diagComPlus="http://iso.org/OTX/1.0.0/DiagComPlus" xmlns:flashPlus="http://iso.org/OTX/1.0.0/FlashPlus" xmlns:vehInf="http://iso.org/OTX/1.0.0/VehicleInfo" xmlns:unittest="http://emotive.de/OTX/1.0.0/UnitTest" id="id_28a88a7f4a1441fc9a042de27b9a0465" name="Document1" package="OtxProject14Package1.OtxProject5Package1" version="1.0.0.0" timestamp="2023-05-18T10:32:42.9379329+07:00">
+<otx xmlns="http://iso.org/OTX/1.0.0" xmlns:measure="http://iso.org/OTX/1.0.0/Measure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:diag="http://iso.org/OTX/1.0.0/DiagCom" xmlns:quant="http://iso.org/OTX/1.0.0/Quantities" xmlns:event="http://iso.org/OTX/1.0.0/Event" xmlns:string="http://iso.org/OTX/1.0.0/StringUtil" xmlns:hmi="http://iso.org/OTX/1.0.0/HMI" xmlns:dt="http://iso.org/OTX/1.0.0/DateTime" xmlns:math="http://iso.org/OTX/1.0.0/Math" xmlns:log="http://iso.org/OTX/1.0.0/Logging" xmlns:flash="http://iso.org/OTX/1.0.0/Flash" xmlns:i18n="http://iso.org/OTX/1.0.0/i18n" xmlns:job="http://iso.org/OTX/1.0.0/Job" xmlns:data="http://iso.org/OTX/1.0.0/DiagDataBrowsing" xmlns:dmd="http://iso.org/OTX/1.0.0/Auxiliaries/DiagMetaData" xmlns:diagDataPlus="http://iso.org/OTX/1.0.0/DiagDataBrowsingPlus" xmlns:utils="http://emotive.de/OTX/1.0.0/Utils" xmlns:file="http://iso.org/OTX/1.0.0/File" xmlns:otxXml="http://iso.org/OTX/1.0.0/XML" xmlns:persist="http://iso.org/OTX/1.0.0/Persistence" xmlns:eventPlus="http://iso.org/OTX/1.0.0/EventPlus" xmlns:blackBox="http://iso.org/OTX/1.0.0/BlackBox" xmlns:dataType="http://iso.org/OTX/1.0.0/DataType" xmlns:util="http://iso.org/OTX/1.0.0/Util" xmlns:stateVar="http://iso.org/OTX/1.0.0/StateVariable" xmlns:assert="http://iso.org/OTX/1.0.0/Assertion" xmlns:smp="http://iso.org/OTX/1.0.0/StateMachineProcedure" xmlns:zip="http://iso.org/OTX/1.0.0/ZipHandling" xmlns:sql="http://iso.org/OTX/1.0.0/SQL" xmlns:testResult="http://iso.org/OTX/1.0.0/TestResultHandling" xmlns:commDlg="http://iso.org/OTX/1.0.0/CommonDialogs" xmlns:esp="http://iso.org/OTX/1.0.0/ExternalServiceProvider" xmlns:busMon="http://iso.org/OTX/1.0.0/BusMonitoring" xmlns:comIf="http://iso.org/OTX/1.0.0/ComInterface" xmlns:diagConf="http://iso.org/OTX/1.0.0/DiagConfiguration" xmlns:ecuConf="http://iso.org/OTX/1.0.0/EcuConfiguration" xmlns:diagComPlus="http://iso.org/OTX/1.0.0/DiagComPlus" xmlns:flashPlus="http://iso.org/OTX/1.0.0/FlashPlus" xmlns:vehInf="http://iso.org/OTX/1.0.0/VehicleInfo" xmlns:unittest="http://emotive.de/OTX/1.0.0/UnitTest" xmlns:sod="http://volkswagenag.com/OTX/1.0.0/SOD" xmlns:vwUtil="http://volkswagen.de/OTX/1.0.0/Util" xmlns:range="http://iso.org/OTX/1.0.0/Range" xmlns:pdusim="http://emotive.de/OTX/1.0.0/PduSimulation" id="id_28a88a7f4a1441fc9a042de27b9a0465" name="Document1" package="OtxProject14Package1.OtxProject5Package1" version="1.0.0.0" timestamp="2023-05-18T10:32:42.9379329+07:00">
   <metaData>
     <data key="MadeWith">Created by emotive Open Test Framework - www.emotive.de</data>
     <data key="OtfVersion">6.99.0.47143</data>
@@ -19,12 +19,8 @@
   <signatures>
     <signature name="ProcedureSignature1" id="Signature_288187926a68479d8435b443ecb52c3f">
       <specification>xxxxxxx</specification>
-      <extendedData xsi:type="annot:Annotation">
-        <annot:annotation>gggg</annot:annotation>
-      </extendedData>
-      <extendedData xsi:type="annot:Annotation">
-        <annot:annotation class="SPEC">gggg</annot:annotation>
-      </extendedData>
+      <specification>gggg</specification>
+      <specification class="SPEC">gggg</specification>
       <realisation xsi:type="ProcedureSignature" />
     </signature>
     <signature name="DeviceSignature1" id="Signature_41c628216e7041629a5cc9d85692443e">
@@ -44,12 +40,8 @@
         <flow>
           <action name="Assignment1" id="Assignment_afe2d5ef44634896b1e5d16e7a8ea456">
             <specification>qqq</specification>
-            <extendedData xsi:type="annot:Annotation">
-              <annot:annotation class="">t</annot:annotation>
-            </extendedData>
-            <extendedData xsi:type="annot:Annotation">
-              <annot:annotation class="Requirement">tttttttttttt</annot:annotation>
-            </extendedData>
+            <specification class="">t</specification>
+            <specification class="Requirement">tttttttttttt</specification>
             <realisation xsi:type="Assignment" />
           </action>
           <action name="main" id="ProcedureCall_c67109927b034b498eab14141a3cfc6d">

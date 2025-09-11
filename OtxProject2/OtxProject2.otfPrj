@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.emotive.de/odf">
+  <Applications />
+  <References />
+  <MakeBackup />
+  <StartupApplication Procedure="ExampleDiagRuntimeSettingsPackage.Document1.main" />
+  <ExportPtx />
+  <InstructionsFile TemplateName="Default.ptxt" ShortName="Project" />
+  <MetaDataLayout />
+  <TestResultHandling />
+</Project>

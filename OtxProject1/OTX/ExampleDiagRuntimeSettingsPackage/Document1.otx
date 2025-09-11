@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otx xmlns="http://iso.org/OTX/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="id_a527157ea26e44a3b7ab898b42eb894e" name="Document1" package="ExampleDiagRuntimeSettingsPackage" version="1.0.0.0" timestamp="2025-09-11T16:20:13.1497744+07:00">
+  <metaData>
+    <data key="MadeWith">Created by emotive Open Test Framework - www.emotive.de</data>
+    <data key="OtfVersion">8.7.51782.53046</data>
+  </metaData>
+  <procedures>
+    <procedure id="id_6d1fb78d2dc146d380876906cda35d0a" name="main" visibility="PUBLIC">
+      <realisation>
+        <flow />
+      </realisation>
+    </procedure>
+  </procedures>
+</otx>

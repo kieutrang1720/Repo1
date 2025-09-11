@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otx xmlns="http://iso.org/OTX/1.0.0" xmlns:measure="http://iso.org/OTX/1.0.0/Measure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:diag="http://iso.org/OTX/1.0.0/DiagCom" xmlns:quant="http://iso.org/OTX/1.0.0/Quantities" xmlns:event="http://iso.org/OTX/1.0.0/Event" xmlns:string="http://iso.org/OTX/1.0.0/StringUtil" xmlns:hmi="http://iso.org/OTX/1.0.0/HMI" xmlns:dt="http://iso.org/OTX/1.0.0/DateTime" xmlns:math="http://iso.org/OTX/1.0.0/Math" xmlns:log="http://iso.org/OTX/1.0.0/Logging" xmlns:flash="http://iso.org/OTX/1.0.0/Flash" xmlns:i18n="http://iso.org/OTX/1.0.0/i18n" xmlns:job="http://iso.org/OTX/1.0.0/Job" xmlns:data="http://iso.org/OTX/1.0.0/DiagDataBrowsing" xmlns:dmd="http://iso.org/OTX/1.0.0/Auxiliaries/DiagMetaData" xmlns:diagDataPlus="http://iso.org/OTX/1.0.0/DiagDataBrowsingPlus" xmlns:utils="http://emotive.de/OTX/1.0.0/Utils" xmlns:file="http://iso.org/OTX/1.0.0/File" xmlns:otxXml="http://iso.org/OTX/1.0.0/XML" xmlns:persist="http://iso.org/OTX/1.0.0/Persistence" xmlns:eventPlus="http://iso.org/OTX/1.0.0/EventPlus" xmlns:blackBox="http://iso.org/OTX/1.0.0/BlackBox" xmlns:dataType="http://iso.org/OTX/1.0.0/DataType" xmlns:util="http://iso.org/OTX/1.0.0/Util" xmlns:stateVar="http://iso.org/OTX/1.0.0/StateVariable" xmlns:assert="http://iso.org/OTX/1.0.0/Assertion" xmlns:smp="http://iso.org/OTX/1.0.0/StateMachineProcedure" xmlns:zip="http://iso.org/OTX/1.0.0/ZipHandling" xmlns:sql="http://iso.org/OTX/1.0.0/SQL" xmlns:testResult="http://iso.org/OTX/1.0.0/TestResultHandling" xmlns:commDlg="http://iso.org/OTX/1.0.0/CommonDialogs" xmlns:esp="http://iso.org/OTX/1.0.0/ExternalServiceProvider" xmlns:busMon="http://iso.org/OTX/1.0.0/BusMonitoring" xmlns:comIf="http://iso.org/OTX/1.0.0/ComInterface" xmlns:diagConf="http://iso.org/OTX/1.0.0/DiagConfiguration" xmlns:ecuConf="http://iso.org/OTX/1.0.0/EcuConfiguration" xmlns:diagComPlus="http://iso.org/OTX/1.0.0/DiagComPlus" xmlns:flashPlus="http://iso.org/OTX/1.0.0/FlashPlus" xmlns:vehInf="http://iso.org/OTX/1.0.0/VehicleInfo" xmlns:unittest="http://emotive.de/OTX/1.0.0/UnitTest" xmlns:sod="http://volkswagenag.com/OTX/1.0.0/SOD" xmlns:vwUtil="http://volkswagen.de/OTX/1.0.0/Util" xmlns:range="http://iso.org/OTX/1.0.0/Range" xmlns:pdusim="http://emotive.de/OTX/1.0.0/PduSimulation" id="id_0b70a443e6024d5cbf2a29f2a966e14a" name="Document1" package="OtxProject14Package2.OtxProject5Package1" version="1.0.0.0" timestamp="2023-05-18T10:32:42.9379329+07:00">
+  <metaData>
+    <data key="MadeWith">Created by emotive Open Test Framework - www.emotive.de</data>
+    <data key="OtfVersion">6.99.0.47143</data>
+  </metaData>
+  <declarations>
+    <constant name="GlobalConstant1" id="GlobalConstantDeclaration_e35be59c3f774d328676085418ab4755">
+      <specification>wwwww</specification>
+      <specification>rrrr</specification>
+      <specification class="SPEC">bbbbb</specification>
+      <realisation>
+        <dataType xsi:type="Integer">
+          <init value="12" />
+        </dataType>
+      </realisation>
+    </constant>
+  </declarations>
+  <signatures>
+    <signature name="ProcedureSignature1" id="Signature_8e57378538894e30a73de8fff4670922">
+      <specification>xxxxxxx</specification>
+      <specification>gggg</specification>
+      <specification class="SPEC">gggg</specification>
+      <realisation xsi:type="ProcedureSignature" />
+    </signature>
+    <signature name="DeviceSignature1" id="Signature_57f68889ff564c108e766737512132b0">
+      <realisation xsi:type="measure:DeviceSignature">
+        <measure:services>
+          <measure:service name="DeviceServiceSignature1" id="DeviceServiceSignature_4223866c07154c20831dcc26f9df52cc">
+            <specification>vvvvv</specification>
+            <measure:realisation />
+          </measure:service>
+        </measure:services>
+      </realisation>
+    </signature>
+  </signatures>
+  <procedures>
+    <procedure id="id_0198a230d86b413b8a1eefeba39cb4e1" name="main" visibility="PUBLIC">
+      <realisation>
+        <flow>
+          <action name="Assignment1" id="Assignment_54c9fe4d8e7e4f92a42681f4210138d1">
+            <specification>qqq</specification>
+            <specification class="">t</specification>
+            <specification class="Requirement">tttttttttttt</specification>
+            <realisation xsi:type="Assignment" />
+          </action>
+          <action name="main" id="ProcedureCall_fef067a7f7aa42f8816b41ce838a1909">
+            <specification>nnnn</specification>
+            <realisation xsi:type="ProcedureCall" procedure="main" />
+          </action>
+        </flow>
+      </realisation>
+    </procedure>
+  </procedures>
+</otx>

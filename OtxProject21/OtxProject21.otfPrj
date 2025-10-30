@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.emotive.de/odf">
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProjectVersion="1.0.0.815128650" xmlns="http://www.emotive.de/odf">
   <Applications />
   <References />
   <MakeBackup />
-  <StartupApplication Procedure="OtxProject14Package1.zzz.main" />
+  <StartupApplication Procedure="OtxProject14Package1.zzz.main">
+    <ParameterCollection />
+  </StartupApplication>
   <ExportPtx />
   <InstructionsFile TemplateName="Default.ptxt" ShortName="Project" />
   <MetaDataLayout />

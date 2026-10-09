@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otxMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.1.0" mappingVersion="1.0.0.0" name="OtxTestProject1" description="" xmlns="http://www.emotive.de/AssemblyScreenMapping.xsd">
+  <createdForProjectRef name="OtxTestProject1" version="1.0.0.844843244" />
+  <applications>
+    <application id="AppId1" path="Device.dll" />
+  </applications>
+  <mappings>
+    <deviceMapping appIdRef="AppId1">
+      <device name="Device.Calculator" deviceSignatureName="OtxTestProject1Package1.TestDocument1.Calculator">
+        <services>
+          <service name="Add" signatureName="Add">
+            <mappingElements>
+              <mappingElement name="numeral1">
+                <mapToElement>numeral1</mapToElement>
+              </mappingElement>
+              <mappingElement name="numeral2">
+                <mapToElement>numeral2</mapToElement>
+              </mappingElement>
+              <mappingElement name="_x0023_Return">
+                <mapToElement>Result</mapToElement>
+              </mappingElement>
+            </mappingElements>
+          </service>
+          <service name="Subtract" signatureName="Subtract">
+            <mappingElements>
+              <mappingElement name="numeral">
+                <mapToElement>numeral</mapToElement>
+              </mappingElement>
+              <mappingElement name="subtrahend">
+                <mapToElement>subtrahend</mapToElement>
+              </mappingElement>
+              <mappingElement name="_x0023_Return">
+                <mapToElement>Result</mapToElement>
+              </mappingElement>
+            </mappingElements>
+          </service>
+          <service name="Divide" signatureName="Divide">
+            <mappingElements>
+              <mappingElement name="numeral">
+                <mapToElement>numeral</mapToElement>
+              </mappingElement>
+              <mappingElement name="devisor">
+                <mapToElement>devisor</mapToElement>
+              </mappingElement>
+              <mappingElement name="_x0023_Return">
+                <mapToElement>Result</mapToElement>
+              </mappingElement>
+            </mappingElements>
+          </service>
+          <service name="Multiply" signatureName="Multiply">
+            <mappingElements>
+              <mappingElement name="numeral1">
+                <mapToElement>numeral1</mapToElement>
+              </mappingElement>
+              <mappingElement name="numeral2">
+                <mapToElement>numeral2</mapToElement>
+              </mappingElement>
+              <mappingElement name="_x0023_Return">
+                <mapToElement>Result</mapToElement>
+              </mappingElement>
+            </mappingElements>
+          </service>
+        </services>
+      </device>
+    </deviceMapping>
+  </mappings>
+  <initialValues>
+    <initialValue name="OtxTestProject1Package1.TestDocument1.Calculator1.Add.Result">200</initialValue>
+  </initialValues>
+</otxMapping>

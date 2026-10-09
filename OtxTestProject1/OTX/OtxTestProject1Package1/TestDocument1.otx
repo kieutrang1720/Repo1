@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otx xmlns="http://iso.org/OTX/1.0.0" xmlns:unittest="http://emotive.de/OTX/1.0.0/UnitTest" xmlns:measure="http://iso.org/OTX/1.0.0/Measure" xmlns:log="http://iso.org/OTX/1.0.0/Logging" xmlns:hmi="http://iso.org/OTX/1.0.0/HMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="id_02bc9029946f48aca196cb95d7cd1202" name="TestDocument1" package="OtxTestProject1Package1" version="1.0.0.0" timestamp="2026-10-09T13:37:42.5621224+07:00">
+  <metaData>
+    <data key="MadeWith">Created by emotive Open Test Framework - www.emotive.de</data>
+    <data key="OtfVersion">10.0.0.55786</data>
+  </metaData>
+  <signatures>
+    <signature name="Calculator" id="Signature_e8b96ef3a70e49cd890c322fd0e7867d">
+      <realisation xsi:type="measure:DeviceSignature">
+        <measure:services>
+          <measure:service name="Add" id="DeviceServiceSignature_9159a65f0ab0425e873ed4fc898c2829">
+            <measure:realisation>
+              <measure:parameters>
+                <measure:inParam name="numeral1" id="DeviceServiceInParameterDeclaration_bcd4d310724f4c0598e42354786f163c">
+                  <realisation>
+                    <dataType xsi:type="Integer">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:inParam>
+                <measure:inParam name="numeral2" id="DeviceServiceInParameterDeclaration_8e507fc7a0f14f2cb981ba09e930a36e">
+                  <realisation>
+                    <dataType xsi:type="Integer">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:inParam>
+                <measure:outParam name="Result" id="DeviceServiceOutParameterDeclaration_780dc969d1a940dab4dfa889f30b7788">
+                  <realisation>
+                    <dataType xsi:type="Integer">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:outParam>
+              </measure:parameters>
+            </measure:realisation>
+          </measure:service>
+          <measure:service name="Subtract" id="DeviceServiceSignature_ff03b617e1d14dd696710398264b9289">
+            <measure:realisation>
+              <measure:parameters>
+                <measure:inParam name="numeral" id="DeviceServiceInParameterDeclaration_44a68c6ba3084acca42daa2bdccda06a">
+                  <realisation>
+                    <dataType xsi:type="Integer">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:inParam>
+                <measure:inParam name="subtrahend" id="DeviceServiceInParameterDeclaration_45b967b5c5334b3db8eb98ec70b314a6">
+                  <realisation>
+                    <dataType xsi:type="Integer">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:inParam>
+                <measure:outParam name="Result" id="DeviceServiceOutParameterDeclaration_b4a94ddafafb434ca1500d2a10d7f2a0">
+                  <realisation>
+                    <dataType xsi:type="Integer">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:outParam>
+              </measure:parameters>
+            </measure:realisation>
+          </measure:service>
+          <measure:service name="Divide" id="DeviceServiceSignature_19172aa26c004329a43ab2fbdb88537e">
+            <measure:realisation>
+              <measure:parameters>
+                <measure:inParam name="numeral" id="DeviceServiceInParameterDeclaration_3ae55a84eba842af8e824934a87556c3">
+                  <realisation>
+                    <dataType xsi:type="Float">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:inParam>
+                <measure:inParam name="devisor" id="DeviceServiceInParameterDeclaration_d5e04bac929a4a51a4ef9340be23051e">
+                  <realisation>
+                    <dataType xsi:type="Float">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:inParam>
+                <measure:outParam name="Result" id="DeviceServiceOutParameterDeclaration_96e3a620e98c43bfb16d057029f12c0d">
+                  <realisation>
+                    <dataType xsi:type="Float">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:outParam>
+              </measure:parameters>
+            </measure:realisation>
+          </measure:service>
+          <measure:service name="Multiply" id="DeviceServiceSignature_d08974d52bec498185cbcec991c91fc7">
+            <measure:realisation>
+              <measure:parameters>
+                <measure:inParam name="numeral1" id="DeviceServiceInParameterDeclaration_7a99d1e0f34f46d4ac628e355627cca1">
+                  <realisation>
+                    <dataType xsi:type="Float">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:inParam>
+                <measure:inParam name="numeral2" id="DeviceServiceInParameterDeclaration_d37c26e1b1c74707bf8116690c30e060">
+                  <realisation>
+                    <dataType xsi:type="Float">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:inParam>
+                <measure:outParam name="Result" id="DeviceServiceOutParameterDeclaration_bd9f12b84581422c810c72f2c1a349d6">
+                  <realisation>
+                    <dataType xsi:type="Float">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:outParam>
+              </measure:parameters>
+            </measure:realisation>
+          </measure:service>
+        </measure:services>
+      </realisation>
+    </signature>
+    <signature name="Calculator1" id="Signature_d1a2f69f345b454b8a7a4290b5d6e7d6">
+      <realisation xsi:type="measure:DeviceSignature">
+        <measure:services>
+          <measure:service name="Add" id="DeviceServiceSignature_e570a31b12cf46f488f8e4e97e97e90d">
+            <measure:realisation>
+              <measure:parameters>
+                <measure:inParam name="numeral1" id="DeviceServiceInParameterDeclaration_aa23880a9f18453d9d975ab47e0a722a">
+                  <realisation>
+                    <dataType xsi:type="Integer">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:inParam>
+                <measure:inParam name="numeral2" id="DeviceServiceInParameterDeclaration_fd9ca533c85f42abb7f5cb5828e751bf">
+                  <realisation>
+                    <dataType xsi:type="Integer">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:inParam>
+                <measure:outParam name="Result" id="DeviceServiceOutParameterDeclaration_7998883a8b1940bdbd95c84508d3314b">
+                  <realisation>
+                    <dataType xsi:type="Integer">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:outParam>
+              </measure:parameters>
+            </measure:realisation>
+          </measure:service>
+          <measure:service name="Subtract" id="DeviceServiceSignature_1c22f85a2dbd4daaaa5df516bf02a7e9">
+            <measure:realisation>
+              <measure:parameters>
+                <measure:inParam name="numeral" id="DeviceServiceInParameterDeclaration_54b6edbe2bb74124872fc669f60a5ac5">
+                  <realisation>
+                    <dataType xsi:type="Integer">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:inParam>
+                <measure:inParam name="subtrahend" id="DeviceServiceInParameterDeclaration_ed9ab856f248435289929092a6d4b0ab">
+                  <realisation>
+                    <dataType xsi:type="Integer">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:inParam>
+                <measure:outParam name="Result" id="DeviceServiceOutParameterDeclaration_c9dd0cec7b90411f8191b9c614a5e6d4">
+                  <realisation>
+                    <dataType xsi:type="Integer">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:outParam>
+              </measure:parameters>
+            </measure:realisation>
+          </measure:service>
+          <measure:service name="Divide" id="DeviceServiceSignature_157ed14ee7f24ec48e03b06ee0778cc1">
+            <measure:realisation>
+              <measure:parameters>
+                <measure:inParam name="numeral" id="DeviceServiceInParameterDeclaration_435b781ba43e4105a1311f56daad455b">
+                  <realisation>
+                    <dataType xsi:type="Float">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:inParam>
+                <measure:inParam name="devisor" id="DeviceServiceInParameterDeclaration_50ccf52dddc94f70a884c890679baf66">
+                  <realisation>
+                    <dataType xsi:type="Float">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:inParam>
+                <measure:outParam name="Result" id="DeviceServiceOutParameterDeclaration_d4662e6210e14bdd9ca983dad5a3cbfa">
+                  <realisation>
+                    <dataType xsi:type="Float">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:outParam>
+              </measure:parameters>
+            </measure:realisation>
+          </measure:service>
+          <measure:service name="Multiply" id="DeviceServiceSignature_75c8abe9b0c7422a95a0d238c8dfd7b2">
+            <measure:realisation>
+              <measure:parameters>
+                <measure:inParam name="numeral1" id="DeviceServiceInParameterDeclaration_9e69427f9d614770ac89217e56b34eb0">
+                  <realisation>
+                    <dataType xsi:type="Float">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:inParam>
+                <measure:inParam name="numeral2" id="DeviceServiceInParameterDeclaration_81936d162af544a78749dd2af26a49b1">
+                  <realisation>
+                    <dataType xsi:type="Float">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:inParam>
+                <measure:outParam name="Result" id="DeviceServiceOutParameterDeclaration_951feba9ef41439c9cbcf4ec28c752ce">
+                  <realisation>
+                    <dataType xsi:type="Float">
+                      <init value="0" />
+                    </dataType>
+                  </realisation>
+                </measure:outParam>
+              </measure:parameters>
+            </measure:realisation>
+          </measure:service>
+        </measure:services>
+      </realisation>
+    </signature>
+  </signatures>
+  <extendedElement xsi:type="unittest:TestProcedures">
+    <unittest:testProcedure name="TestProcedure1" id="id_5a39309f39a94cb9ad0a74b5c18d3af7">
+      <unittest:realisation>
+        <unittest:declarations>
+          <variable name="Result1" id="VariableDeclaration_0215ddb631f84da0b85a4c2b7c631e65">
+            <realisation>
+              <dataType xsi:type="Integer" />
+            </realisation>
+          </variable>
+        </unittest:declarations>
+        <unittest:flow>
+          <action name="WriteLog1" id="WriteLog_84e1655a4f7f4f1883ca4280a9f6ee1c">
+            <realisation xsi:type="log:WriteLog">
+              <log:level xsi:type="log:SeverityLevelLiteral" value="TRACE" />
+              <log:message xsi:type="StringLiteral" value="test log" />
+            </realisation>
+          </action>
+          <action name="Add" id="ExecuteDeviceService_46e61f88dde64498a26a32ccb287f0c5">
+            <realisation xsi:type="measure:ExecuteDeviceService" device="Calculator" service="Add">
+              <measure:arguments>
+                <measure:inArgument parameter="numeral1">
+                  <measure:term xsi:type="IntegerLiteral" value="1" />
+                </measure:inArgument>
+                <measure:inArgument parameter="numeral2">
+                  <measure:term xsi:type="IntegerLiteral" value="2" />
+                </measure:inArgument>
+                <measure:outArgument parameter="Result">
+                  <measure:target xsi:type="IntegerVariable" name="Result1" />
+                </measure:outArgument>
+              </measure:arguments>
+            </realisation>
+          </action>
+          <action name="Add1" id="ExecuteDeviceService_3af0241ca65b4d87a6a590139bdf9983">
+            <realisation xsi:type="measure:ExecuteDeviceService" device="Calculator1" service="Add">
+              <measure:arguments>
+                <measure:inArgument parameter="numeral1">
+                  <measure:term xsi:type="IntegerLiteral" value="1" />
+                </measure:inArgument>
+                <measure:inArgument parameter="numeral2">
+                  <measure:term xsi:type="IntegerLiteral" value="2" />
+                </measure:inArgument>
+                <measure:outArgument parameter="Result">
+                  <measure:target xsi:type="IntegerVariable" name="Result1" />
+                </measure:outArgument>
+              </measure:arguments>
+            </realisation>
+          </action>
+          <action name="ConfirmDialog1" id="ConfirmDialog_d7e7e53ced214230a7f65a789f2205c7">
+            <realisation xsi:type="hmi:ConfirmDialog" />
+          </action>
+        </unittest:flow>
+      </unittest:realisation>
+    </unittest:testProcedure>
+  </extendedElement>
+</otx>

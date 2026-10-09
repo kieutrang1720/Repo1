@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProjectVersion="1.0.0.844843244" IsTestProject="true" id="id_a86042d7dac24e4ab9027dde6c528b00" xmlns="http://www.emotive.de/odf">
+  <OtxMapping>OtxTestProject1.otfMap</OtxMapping>
+  <Applications />
+  <References />
+  <MakeBackup />
+  <StartupApplication Procedure="OtxTestProject1Package1.Document1.TestProcedure1">
+    <ParameterCollection />
+  </StartupApplication>
+  <ExportPtx />
+  <InstructionsFile TemplateName="Default.ptxt" ShortName="Project" />
+  <MetaDataLayout />
+  <TestResultHandling />
+  <TestContext id="TestContext_bf1a61dfe3f6425d87b64e03c3481e93" Name="" />
+  <Scripts />
+</Project>
